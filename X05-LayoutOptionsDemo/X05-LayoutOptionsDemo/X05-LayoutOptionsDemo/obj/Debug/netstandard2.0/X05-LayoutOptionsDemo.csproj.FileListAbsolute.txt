@@ -1,0 +1,14 @@
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\bin\Debug\netstandard2.0\X05-LayoutOptionsDemo.deps.json
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\bin\Debug\netstandard2.0\X05-LayoutOptionsDemo.dll
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\bin\Debug\netstandard2.0\X05-LayoutOptionsDemo.pdb
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\X05-LayoutOptionsDemo.csproj.AssemblyReference.cache
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\X05-LayoutOptionsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\X05-LayoutOptionsDemo.AssemblyInfoInputs.cache
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\X05-LayoutOptionsDemo.AssemblyInfo.cs
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\X05-LayoutOptionsDemo.csproj.CoreCompileInputs.cache
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\X05-LayoutOptionsDemo.dll
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\refint\X05-LayoutOptionsDemo.dll
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\X05-LayoutOptionsDemo.pdb
+C:\Xamarin\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\X05-LayoutOptionsDemo\obj\Debug\netstandard2.0\ref\X05-LayoutOptionsDemo.dll

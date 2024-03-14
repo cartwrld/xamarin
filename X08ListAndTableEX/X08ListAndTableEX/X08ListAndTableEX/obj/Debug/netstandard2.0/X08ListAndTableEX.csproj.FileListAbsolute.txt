@@ -1,0 +1,14 @@
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\bin\Debug\netstandard2.0\X08ListAndTableEX.deps.json
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\bin\Debug\netstandard2.0\X08ListAndTableEX.dll
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\bin\Debug\netstandard2.0\X08ListAndTableEX.pdb
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\X08ListAndTableEX.csproj.AssemblyReference.cache
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\X08ListAndTableEX.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\X08ListAndTableEX.AssemblyInfoInputs.cache
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\X08ListAndTableEX.AssemblyInfo.cs
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\X08ListAndTableEX.csproj.CoreCompileInputs.cache
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\X08ListAndTableEX.dll
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\refint\X08ListAndTableEX.dll
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\X08ListAndTableEX.pdb
+C:\Xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\obj\Debug\netstandard2.0\ref\X08ListAndTableEX.dll

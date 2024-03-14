@@ -1,0 +1,15 @@
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\bin\Debug\netstandard2.0\X03-SimpleCalculator.deps.json
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\bin\Debug\netstandard2.0\X03-SimpleCalculator.dll
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\bin\Debug\netstandard2.0\X03-SimpleCalculator.pdb
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\X03-SimpleCalculator.csproj.AssemblyReference.cache
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\X03-SimpleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\X03-SimpleCalculator.AssemblyInfoInputs.cache
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\X03-SimpleCalculator.AssemblyInfo.cs
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\X03-SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\X03-SimpleCalculator.dll
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\refint\X03-SimpleCalculator.dll
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\X03-SimpleCalculator.pdb
+C:\Xamarin\X03-SimpleCalculator\X03-SimpleCalculator\X03-SimpleCalculator\obj\Debug\netstandard2.0\ref\X03-SimpleCalculator.dll

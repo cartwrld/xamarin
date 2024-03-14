@@ -1,0 +1,15 @@
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\bin\Debug\netstandard2.0\X02-SimpleLayout.deps.json
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\bin\Debug\netstandard2.0\X02-SimpleLayout.dll
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\bin\Debug\netstandard2.0\X02-SimpleLayout.pdb
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\X02-SimpleLayout.csproj.AssemblyReference.cache
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\X02-SimpleLayout.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\X02-SimpleLayout.AssemblyInfoInputs.cache
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\X02-SimpleLayout.AssemblyInfo.cs
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\X02-SimpleLayout.csproj.CoreCompileInputs.cache
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\X02-SimpleLayout.dll
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\refint\X02-SimpleLayout.dll
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\X02-SimpleLayout.pdb
+C:\Xamarin\X02-SimpleLayout\X02-SimpleLayout\X02-SimpleLayout\obj\Debug\netstandard2.0\ref\X02-SimpleLayout.dll

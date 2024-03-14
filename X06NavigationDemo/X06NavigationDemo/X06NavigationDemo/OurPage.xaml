@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="X06NavigationDemo.OurPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Move to a different page:"/>
+            <Button Text="Push Page" x:Name="btnNew"/>
+            <Button Text="Push Modal" x:Name="btnNewModal"/>
+            <Button Text="Pop Page" x:Name="btnPop"/>
+            <Button Text="Pop Modal" x:Name="btnPopModal"/>
+            <Button Text="Pop to Root" x:Name="btnPopToRoot"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\bin\Debug\netstandard2.0\X06NavigationDemo.deps.json
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\bin\Debug\netstandard2.0\X06NavigationDemo.dll
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\bin\Debug\netstandard2.0\X06NavigationDemo.pdb
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\X06NavigationDemo.csproj.AssemblyReference.cache
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\X06NavigationDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\X06NavigationDemo.AssemblyInfoInputs.cache
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\X06NavigationDemo.AssemblyInfo.cs
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\X06NavigationDemo.csproj.CoreCompileInputs.cache
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\X06NavigationDemo.dll
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\refint\X06NavigationDemo.dll
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\X06NavigationDemo.pdb
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\ref\X06NavigationDemo.dll
+C:\Xamarin\X06NavigationDemo\X06NavigationDemo\X06NavigationDemo\obj\Debug\netstandard2.0\OurPage.xaml.g.cs

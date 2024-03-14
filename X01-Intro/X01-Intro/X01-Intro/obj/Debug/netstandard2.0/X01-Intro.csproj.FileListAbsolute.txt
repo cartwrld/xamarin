@@ -1,0 +1,14 @@
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\bin\Debug\netstandard2.0\X01-Intro.deps.json
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\bin\Debug\netstandard2.0\X01-Intro.dll
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\bin\Debug\netstandard2.0\X01-Intro.pdb
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\X01-Intro.csproj.AssemblyReference.cache
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\X01-Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\X01-Intro.AssemblyInfoInputs.cache
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\X01-Intro.AssemblyInfo.cs
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\X01-Intro.csproj.CoreCompileInputs.cache
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\X01-Intro.dll
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\refint\X01-Intro.dll
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\X01-Intro.pdb
+C:\Xamarin\X01-Intro\X01-Intro\X01-Intro\obj\Debug\netstandard2.0\ref\X01-Intro.dll

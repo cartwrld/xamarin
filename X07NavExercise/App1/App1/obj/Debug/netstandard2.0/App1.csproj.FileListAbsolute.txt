@@ -1,0 +1,15 @@
+C:\Xamarin\X07NavExercise\App1\App1\bin\Debug\netstandard2.0\App1.deps.json
+C:\Xamarin\X07NavExercise\App1\App1\bin\Debug\netstandard2.0\App1.dll
+C:\Xamarin\X07NavExercise\App1\App1\bin\Debug\netstandard2.0\App1.pdb
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\App1.csproj.AssemblyReference.cache
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\App1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\App1.dll
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\refint\App1.dll
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\App1.pdb
+C:\Xamarin\X07NavExercise\App1\App1\obj\Debug\netstandard2.0\ref\App1.dll

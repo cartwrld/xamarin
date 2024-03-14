@@ -1,0 +1,14 @@
+C:\Xamarin\X07ListView\X07ListView\X07ListView\bin\Debug\netstandard2.0\X07ListView.deps.json
+C:\Xamarin\X07ListView\X07ListView\X07ListView\bin\Debug\netstandard2.0\X07ListView.dll
+C:\Xamarin\X07ListView\X07ListView\X07ListView\bin\Debug\netstandard2.0\X07ListView.pdb
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\X07ListView.csproj.AssemblyReference.cache
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\X07ListView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\X07ListView.AssemblyInfoInputs.cache
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\X07ListView.AssemblyInfo.cs
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\X07ListView.csproj.CoreCompileInputs.cache
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\X07ListView.dll
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\refint\X07ListView.dll
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\X07ListView.pdb
+C:\Xamarin\X07ListView\X07ListView\X07ListView\obj\Debug\netstandard2.0\ref\X07ListView.dll

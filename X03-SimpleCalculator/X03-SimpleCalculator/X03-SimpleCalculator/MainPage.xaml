@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="X03_SimpleCalculator.MainPage">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+        <Label Text="Welcome to Simple Calculator" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Entry x:Name="num1" Keyboard="Numeric"/>
+        <Picker x:Name="pickOp" Title="Select an operation">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Add</x:String>
+                    <x:String>Subtract</x:String>
+                    <x:String>Multiply</x:String>
+                    <x:String>Divide</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+        <Entry x:Name="num2" Keyboard="Numeric"/>
+        <Button x:Name="btnCalc" Text="Calculate!"></Button>
+        <Label x:Name="lblResult" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <!--<Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>-->
+    </StackLayout>
+
+</ContentPage>

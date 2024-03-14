@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="X04_GridLayout.MainPage">
+
+    <!--<StackLayout VerticalOptions="CenterAndExpand" Margin="30,30,30,30">
+
+        <StackLayout Orientation="Horizontal">
+        <Label Text="Output:"/>
+        <Label x:Name="lblResult" Text="" HorizontalOptions="CenterAndExpand"/>
+    </StackLayout>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="btn1" Text="1" Grid.Row="0" Grid.Column="0"/>
+            <Button x:Name="btn2" Text="2" Grid.Row="0" Grid.Column="1"/>
+            <Button x:Name="btn3" Text="3" Grid.Row="0" Grid.Column="2"/>
+            <Button x:Name="btn4" Text="4" Grid.Row="1" Grid.Column="0"/>
+            <Button x:Name="btn5" Text="5" Grid.Row="1" Grid.Column="1"/>
+            <Button x:Name="btn6" Text="6" Grid.Row="1" Grid.Column="2"/>
+            <Button x:Name="btn7" Text="7" Grid.Row="2" Grid.Column="0"/>
+            <Button x:Name="btn8" Text="8" Grid.Row="2" Grid.Column="1"/>
+            <Button x:Name="btn9" Text="9" Grid.Row="2" Grid.Column="2"/>
+            <Button x:Name="btn0" Text="0" Grid.Row="3" Grid.Column="1"/>
+            <Button Text="+" Grid.Row="4" Grid.Column="0"/>
+            <Button Text="-" Grid.Row="4" Grid.Column="1"/>
+            <Button Text="=" Grid.Row="4" Grid.Column="2"/>
+
+        </Grid>
+
+    </StackLayout>-->
+</ContentPage>

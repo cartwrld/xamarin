@@ -1,0 +1,16 @@
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\bin\Debug\netstandard2.0\EX06NavigationPassing.deps.json
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\bin\Debug\netstandard2.0\EX06NavigationPassing.dll
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\bin\Debug\netstandard2.0\EX06NavigationPassing.pdb
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\EX06NavigationPassing.csproj.AssemblyReference.cache
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\EX06NavigationPassing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\EX06NavigationPassing.AssemblyInfoInputs.cache
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\EX06NavigationPassing.AssemblyInfo.cs
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\EX06NavigationPassing.csproj.CoreCompileInputs.cache
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\EX06NavigationPassing.dll
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\refint\EX06NavigationPassing.dll
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\EX06NavigationPassing.pdb
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\ref\EX06NavigationPassing.dll
+C:\Xamarin\EX06NavigationPassing\EX06NavigationPassing\EX06NavigationPassing\obj\Debug\netstandard2.0\exr1.xaml.g.cs
