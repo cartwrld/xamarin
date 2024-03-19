@@ -10,7 +10,7 @@ namespace X08ListAndTableEX
         {
             InitializeComponent();
 
-            MainPage = new ToDoList();
+            MainPage = new NavigationPage(new ToDoList());
         }
 
         protected override void OnStart()

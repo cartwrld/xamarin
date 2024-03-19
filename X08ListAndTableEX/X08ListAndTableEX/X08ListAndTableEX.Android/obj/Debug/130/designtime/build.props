@@ -14,9 +14,9 @@ androidlinkskip=
 androidsdkbuildtoolsversion=32.0.0
 androidsdkpath=c:\program files (x86)\android\android-sdk\
 androidndkpath=
-javasdkpath=c:\program files\microsoft\jdk-11.0.16.101-hotspot\
+javasdkpath=c:\program files (x86)\android\openjdk\jdk-17.0.8.101-hotspot\
 androidsequencepointsmode=none
-xamarinandroidversion=13.2.0-0
+xamarinandroidversion=13.2.2-0
 monosymbolarchive=false
 androiduselatestplatformsdk=false
 targetframeworkversion=v13.0
@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638459146977262374
+_nugetassetstimestamp=638460958162486374
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\xamarin\x08listandtableex\x08listandtableex\x08listandtableex.android\x08listandtableex.android.csproj
+projectfullpath=d:\github\xamarin\x08listandtableex\x08listandtableex\x08listandtableex.android\x08listandtableex.android.csproj

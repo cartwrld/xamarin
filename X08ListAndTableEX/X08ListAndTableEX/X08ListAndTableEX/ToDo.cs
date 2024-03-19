@@ -8,18 +8,27 @@ namespace X08ListAndTableEX
 {
     public class ToDo : INotifyPropertyChanged
     {
-        private string tdTitle;
+        private string tdDescription;
         private DateTime tdDate;
         private bool tdCompleted;
+        public event PropertyChangedEventHandler PropertyChanged;
 
-        public string Title
+        private void OnPropertyChanged([CallerMemberName] string property = "")
         {
-            get { return this.tdTitle; }
+            if (PropertyChanged != null) 
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(property));
+            }
+        }
+
+        public string Description
+        {
+            get { return this.tdDescription; }
             set
             {
-                if (tdTitle != value)
+                if (tdDescription != value)
                 {
-                    this.tdTitle = value;
+                    this.tdDescription = value;
                     OnPropertyChanged();
                 }
             }
@@ -27,7 +36,10 @@ namespace X08ListAndTableEX
 
         public DateTime Date
         {
-            get { return this.tdDate; }
+            get 
+            {
+                return this.tdDate; 
+            }
             set
             {
                 if (tdDate != value)
@@ -51,15 +63,7 @@ namespace X08ListAndTableEX
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
 
-        private void OnPropertyChanged([CallerMemberName] string property = "")
-        {
-            if (PropertyChanged != null) 
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(property));
-            }
-        }
 
     }
 }

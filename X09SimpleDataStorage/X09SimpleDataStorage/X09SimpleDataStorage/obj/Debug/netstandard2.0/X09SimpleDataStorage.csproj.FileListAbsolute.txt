@@ -1,0 +1,15 @@
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\bin\Debug\netstandard2.0\X09SimpleDataStorage.deps.json
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\bin\Debug\netstandard2.0\X09SimpleDataStorage.dll
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\bin\Debug\netstandard2.0\ref\X09SimpleDataStorage.dll
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\bin\Debug\netstandard2.0\X09SimpleDataStorage.pdb
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\X09SimpleDataStorage.csproj.AssemblyReference.cache
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\X09SimpleDataStorage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\X09SimpleDataStorage.AssemblyInfoInputs.cache
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\X09SimpleDataStorage.AssemblyInfo.cs
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\X09SimpleDataStorage.csproj.CoreCompileInputs.cache
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\X09SimpleDataStorage.sourcelink.json
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\X09SimpleDataStorage.dll
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\refint\X09SimpleDataStorage.dll
+D:\Github\xamarin\X09SimpleDataStorage\X09SimpleDataStorage\X09SimpleDataStorage\obj\Debug\netstandard2.0\X09SimpleDataStorage.pdb

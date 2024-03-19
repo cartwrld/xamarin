@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("X06NavigationDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8e40fecf82977858da9b633e5cf2320af9ea334")]
 [assembly: System.Reflection.AssemblyProductAttribute("X06NavigationDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("X06NavigationDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
