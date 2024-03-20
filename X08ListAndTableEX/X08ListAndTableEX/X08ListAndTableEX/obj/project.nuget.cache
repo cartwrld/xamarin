@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "TTYIPJWIzXciY3TXanqn1tBQuzEwIXpggB/gt2WbpcYKrnWGeQz2klUjVaCIw8CNNs4DLYbyf2zSFhVC6vdioA==",
+  "dgSpecHash": "VrqV0iAT7ptTk3BCICGQcMdMJt3M7pkpT5j9dKX4Lu2DhlvN10coinrpVb/4IneJy84uzW76D+BXI8JbDQ3lOQ==",
   "success": true,
-  "projectFilePath": "D:\\Github\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.csproj",
+  "projectFilePath": "C:\\xamarin_git\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\xer0x\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\xer0x\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\xer0x\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\xer0x\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\xer0x\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\walsh0715\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\walsh0715\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\walsh0715\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\walsh0715\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\walsh0715\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

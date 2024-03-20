@@ -3408,24 +3408,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xer0x\\.nuget\\packages\\": {},
+    "C:\\Users\\walsh0715\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.Android\\X08ListAndTableEX.Android.csproj",
+      "projectUniqueName": "C:\\xamarin_git\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.Android\\X08ListAndTableEX.Android.csproj",
       "projectName": "X08ListAndTableEX.Android",
-      "projectPath": "D:\\Github\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.Android\\X08ListAndTableEX.Android.csproj",
-      "packagesPath": "C:\\Users\\xer0x\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.Android\\obj\\",
+      "projectPath": "C:\\xamarin_git\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.Android\\X08ListAndTableEX.Android.csproj",
+      "packagesPath": "C:\\Users\\walsh0715\\.nuget\\packages\\",
+      "outputPath": "C:\\xamarin_git\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\xer0x\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\walsh0715\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3439,16 +3439,11 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\Github\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.csproj": {
-              "projectPath": "D:\\Github\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.csproj"
+            "C:\\xamarin_git\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.csproj": {
+              "projectPath": "C:\\xamarin_git\\xamarin\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX\\X08ListAndTableEX.csproj"
             }
           }
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

@@ -1,5 +1,3 @@
 is_global = true
 build_property.RootNamespace = X08ListAndTableEX
-build_property.ProjectDir = D:\Github\xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\xamarin_git\xamarin\X08ListAndTableEX\X08ListAndTableEX\X08ListAndTableEX\
