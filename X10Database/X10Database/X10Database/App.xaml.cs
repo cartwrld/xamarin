@@ -5,11 +5,8 @@ using System.Diagnostics;
 using System.Linq;
 using Xamarin.Essentials;
 using Xamarin.Forms;
-using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
-using DatePicker = Xamarin.Forms.DatePicker;
-using Picker = Xamarin.Forms.Picker;
-using Slider = Xamarin.Forms.Slider;
+
 
 namespace X10Database
 {
@@ -64,12 +61,12 @@ namespace X10Database
                 ids.Add(Convert.ToInt32(list[i].ID));
             }
 
-            //Picker picker = new Picker
-            //{
-            //    Title = "Select a Fuel Purchase by ID",
-            //    ItemsSource = ids,
-            //    SelectedItem = null,
-            //};
+            picker = new Picker
+            {
+                Title = "Select a Fuel Purchase by ID",
+                ItemsSource = ids,
+                SelectedItem = null,
+            };
 
             picker.SelectedIndexChanged += OnPickerSelectedIndexChanged;
 
