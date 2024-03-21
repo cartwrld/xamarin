@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -22,21 +24,48 @@ namespace X10Database
             }
         }
 
-      
+        static EntryCell eID = new EntryCell { Label = "ID:" };
+        static DatePicker datePicker = new DatePicker();
+        static ViewCell vcDate = new ViewCell { View = datePicker };
+        static Slider slLitres = new Slider { Maximum = 100, Minimum = 1, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300 };
+        static Slider slCost = new Slider { Maximum = 250, Minimum = 0.01, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300 };
+
+        static FuelPurchase currentFP;
+
 
 
         public App()
         {
             InitializeComponent();
 
-            List<FuelPurchase> list = App.Database.GetItems();
+            Debug.WriteLine("I%#U(@^*%&^@#*%^(@#*&%#");
 
-            EntryCell eID = new EntryCell { Label = "ID:" };
-            //EntryCell eDate = new EntryCell { Label = "Date:" };
-            DatePicker datePicker = new DatePicker();
-            ViewCell vcDate = new ViewCell{ View = datePicker };
-            Slider slLitres = new Slider { Maximum = 100, Minimum = 1, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300 };
-            Slider slCost = new Slider { Maximum = 250, Minimum = 0.01, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300 };
+            List<FuelPurchase> list = App.Database.GetItems(); 
+            List<int> ids = new List<int>();
+
+            for (int i = 0; i < list.Count; i++)
+            {
+                ids.Add(Convert.ToInt32(list[i].ID));
+            }
+
+            Picker picker = new Picker
+            {
+                Title = "Select a Fuel Purchase by ID",
+                ItemsSource = ids,
+            };
+
+            picker.SelectedIndexChanged += OnPickerSelectedIndexChanged;
+
+            //picker.SetBinding(Picker.SelectedItemProperty, "SelectedFP");
+            
+
+           
+            //eID.SetBinding(EntryCell.TextProperty, "SelectedFP.ID");
+            //datePicker.SetBinding(DatePicker.DateProperty, "SelectedFP.Date");
+            //slLitres.SetBinding(Slider.ValueProperty, "SelectedFP.Litres");
+            //slCost.SetBinding(Slider.ValueProperty, "SelectedFP.Cost");
+
+
             StackLayout stkLitres = new StackLayout
             {
                 Orientation = StackOrientation.Horizontal,
@@ -54,11 +83,9 @@ namespace X10Database
 
             ViewCell vcLitres  = new ViewCell { View = stkLitres };
             ViewCell vcCost = new ViewCell { View = stkCost };
-            //EntryCell eLitres = new EntryCell { Label = "Litres:" };
-            //EntryCell eCost = new EntryCell { Label = "Cost:" };
+   
 
             Button btnSearch = new Button { Text = "Find" };
-
             btnSearch.Clicked += (s, e) =>  // find the matching purchase based on the typed in ID
             {
                 FuelPurchase purchase = App.Database.GetItem(Convert.ToInt32(eID.Text));
@@ -102,18 +129,6 @@ namespace X10Database
                 App.Database.SaveItem(item);
             };
 
-            List<int> ids = new List<int>();
-
-            for (int i = 0; i < list.Count; i++)
-            {
-                ids.Add(Convert.ToInt32(list[i].ID));
-            }
-
-
-            Picker picker = new Picker
-            {
-                ItemsSource = ids,
-            };
             
             MainPage = new ContentPage
             {
@@ -123,7 +138,7 @@ namespace X10Database
                     Padding = 5,
                     Children =
                     {
-                        
+                        picker,
 
                         new TableView
                         {
@@ -157,6 +172,30 @@ namespace X10Database
 
         protected override void OnResume()
         {
+        }
+
+        void OnPickerSelectedIndexChanged(object sender, EventArgs e)
+        {
+            var picker = (Picker)sender;
+            int selectedIndex = picker.SelectedIndex;
+            FuelPurchase selectedItem = App.Database.GetItem((int)(picker.SelectedItem));
+
+            if (selectedIndex != -1)
+            {
+                FuelPurchase currentFP = App.Database.GetItem(selectedIndex);
+                //eID.Text = picker.ItemsSource[selectedIndex] + "";
+                eID.Text = (selectedItem.ID).ToString();
+                datePicker.Date = selectedItem.Date;
+                slLitres.Value = selectedItem.Litres;
+                slCost.Value = selectedItem.Cost;
+            }
+
+            Debug.WriteLine("\n===========================================================\n");
+            Debug.WriteLine($"\nSelected: {selectedIndex}\n");
+            Debug.WriteLine("\n===========================================================\n");
+
+            //eID.Text = selectedItem;
+
         }
     }
 
