@@ -5,7 +5,11 @@ using System.Diagnostics;
 using System.Linq;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
+using DatePicker = Xamarin.Forms.DatePicker;
+using Picker = Xamarin.Forms.Picker;
+using Slider = Xamarin.Forms.Slider;
 
 namespace X10Database
 {
@@ -24,6 +28,8 @@ namespace X10Database
             }
         }
 
+        static Picker picker;
+
         static EntryCell eID = new EntryCell { Label = "ID:" };
         static DatePicker datePicker = new DatePicker();
         static ViewCell vcDate = new ViewCell { View = datePicker };
@@ -31,16 +37,26 @@ namespace X10Database
         static Slider slCost = new Slider { Maximum = 250, Minimum = 0.01, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300 };
 
         static FuelPurchase currentFP;
+        static Label lblDate = new Label { Text = "Date" };
+        static Label txtDate = new Label { Text = (datePicker.Date).ToString() };
+        static Label lblLitres = new Label { Text = "Litres" };
+        static Label txtLitres = new Label { Text = slLitres.Value.ToString() };
+        static Label lblCost = new Label { Text = "Cost" };
+        static Label txtCost = new Label { Text = slCost.Value.ToString() };
 
+        static Button btnSearch;
+        static Button btnNew;
+        static Button btnDelete;
+        static Button btnSave;
+       
 
 
         public App()
         {
             InitializeComponent();
 
-            Debug.WriteLine("I%#U(@^*%&^@#*%^(@#*&%#");
-
             List<FuelPurchase> list = App.Database.GetItems(); 
+
             List<int> ids = new List<int>();
 
             for (int i = 0; i < list.Count; i++)
@@ -48,23 +64,17 @@ namespace X10Database
                 ids.Add(Convert.ToInt32(list[i].ID));
             }
 
-            Picker picker = new Picker
-            {
-                Title = "Select a Fuel Purchase by ID",
-                ItemsSource = ids,
-            };
+            //Picker picker = new Picker
+            //{
+            //    Title = "Select a Fuel Purchase by ID",
+            //    ItemsSource = ids,
+            //    SelectedItem = null,
+            //};
 
             picker.SelectedIndexChanged += OnPickerSelectedIndexChanged;
 
-            //picker.SetBinding(Picker.SelectedItemProperty, "SelectedFP");
-            
-
-           
-            //eID.SetBinding(EntryCell.TextProperty, "SelectedFP.ID");
-            //datePicker.SetBinding(DatePicker.DateProperty, "SelectedFP.Date");
-            //slLitres.SetBinding(Slider.ValueProperty, "SelectedFP.Litres");
-            //slCost.SetBinding(Slider.ValueProperty, "SelectedFP.Cost");
-
+            slLitres.ValueChanged += OnLitresSliderChanged;
+            slCost.ValueChanged += OnCostSliderChanged;
 
             StackLayout stkLitres = new StackLayout
             {
@@ -84,58 +94,21 @@ namespace X10Database
             ViewCell vcLitres  = new ViewCell { View = stkLitres };
             ViewCell vcCost = new ViewCell { View = stkCost };
    
+            StackLayout stkDateDisplay = HStack(lblDate, txtDate);
+            StackLayout stkLitresDisplay = HStack(lblLitres, txtLitres);
+            StackLayout stkCostDisplay = HStack(lblCost, txtCost);
 
-            Button btnSearch = new Button { Text = "Find" };
-            btnSearch.Clicked += (s, e) =>  // find the matching purchase based on the typed in ID
-            {
-                FuelPurchase purchase = App.Database.GetItem(Convert.ToInt32(eID.Text));
-                datePicker.Date = purchase.Date;
-                slLitres.Value = purchase.Litres;
-                slCost.Value = purchase.Cost;
+            StackLayout display = new StackLayout 
+            { 
+                Orientation = StackOrientation.Vertical,
+                Children = { stkDateDisplay, stkLitresDisplay, stkCostDisplay }
             };
 
-            Button btnNew = new Button { Text = "New" };
-            btnNew.Clicked += (s, e) =>     // prepare for new entry
-            {
-                eID.Text = "0";
-                datePicker.Date = DateTime.Now;
-                slLitres.Value = 0;
-                slCost.Value = 0;
-            };
-
-            Button btnDelete = new Button { Text = "Delete" };
-            btnDelete.Clicked += (s, e) =>
-            {
-                FuelPurchase item = new FuelPurchase
-                {
-                    ID = Convert.ToInt32(eID.Text),
-                    Date = Convert.ToDateTime(datePicker.Date),
-                    Litres = Convert.ToDouble(slLitres.Value),
-                    Cost = Convert.ToDouble(slCost.Value),
-                };
-                App.Database.DeleteItem(item);
-            };
-
-            Button btnSave = new Button { Text = "Save" };
-            btnSave.Clicked += (s, e) =>
-            {
-                FuelPurchase item = new FuelPurchase
-                {
-                    ID = Convert.ToInt32(eID.Text),
-                    Date = Convert.ToDateTime(datePicker.Date),
-                    Litres = Convert.ToDouble(slLitres.Value),
-                    Cost = Convert.ToDouble(slCost.Value),
-                };
-                App.Database.SaveItem(item);
-            };
-
-            
             MainPage = new ContentPage
             {
                 Content = new StackLayout
                 {
-                    Spacing = 5,
-                    Padding = 5,
+                    Spacing = 5, Padding = 5,
                     Children =
                     {
                         picker,
@@ -150,16 +123,84 @@ namespace X10Database
                                     eID, vcDate, vcLitres, vcCost,
                                 }
                             }
-                        },
-                        new StackLayout
-                        {
-                            Orientation = StackOrientation.Horizontal,
-                            Children = { btnSearch, btnSave, btnNew, btnDelete }
-                        }
+                        },  
+
+                        display,
+
+                        createButtons(),
                     }
                 }
             };
+        }
 
+        StackLayout createButtons()
+        {
+            
+            btnSearch = new Button { Text = "Find" };
+            btnNew = new Button { Text = "New" };
+            btnDelete = new Button { Text = "Delete" };
+            btnSave = new Button { Text = "Save" };
+
+            btnSearch.Clicked += (s, e) =>  // find the matching purchase based on the typed in ID
+            {
+                FuelPurchase purchase = App.Database.GetItem(Convert.ToInt32(eID.Text));
+                datePicker.Date = purchase.Date;
+                slLitres.Value = purchase.Litres;
+                slCost.Value = purchase.Cost;
+            };
+
+            btnNew.Clicked += (s, e) =>     // prepare for new entry
+            {
+                picker.SelectedItem = null;
+                eID.Text = "0";
+                datePicker.Date = DateTime.Now;
+                slLitres.Value = 0;
+                slCost.Value = 0;
+            };
+
+            btnDelete.Clicked += (s, e) =>
+            {
+                FuelPurchase item = new FuelPurchase
+                {
+                    ID = Convert.ToInt32(eID.Text),
+                    Date = Convert.ToDateTime(datePicker.Date),
+                    Litres = Convert.ToDouble(slLitres.Value),
+                    Cost = Convert.ToDouble(slCost.Value),
+                };
+                App.Database.DeleteItem(item);
+            };
+
+            btnSave.Clicked += (s, e) =>
+            {
+                FuelPurchase item = new FuelPurchase
+                {
+                    ID = Convert.ToInt32(eID.Text),
+                    Date = Convert.ToDateTime(datePicker.Date),
+                    Litres = Convert.ToDouble(slLitres.Value),
+                    Cost = Convert.ToDouble(slCost.Value),
+                };
+                App.Database.SaveItem(item);
+            };
+
+            return new StackLayout { 
+                Orientation = StackOrientation.Horizontal, 
+                Children = 
+                { 
+                    btnSearch,
+                    btnNew,
+                    btnDelete,
+                    btnSave
+                } 
+            };
+        }
+
+        StackLayout HStack(Label l1, Label l2)
+        {
+            return new StackLayout
+            {
+                Orientation = StackOrientation.Horizontal,
+                Children = { l1, l2 }
+            };
         }
 
         protected override void OnStart()
@@ -172,6 +213,18 @@ namespace X10Database
 
         protected override void OnResume()
         {
+        }
+        
+        void OnLitresSliderChanged(object sender, EventArgs e)
+        {
+            var slider = (Slider)sender;
+            txtLitres.Text = (slider.Value).ToString();           
+        }
+
+        void OnCostSliderChanged(object sender, EventArgs e)
+        {
+            var slider = (Slider)sender;
+            txtCost.Text = (slider.Value).ToString();
         }
 
         void OnPickerSelectedIndexChanged(object sender, EventArgs e)
@@ -189,13 +242,6 @@ namespace X10Database
                 slLitres.Value = selectedItem.Litres;
                 slCost.Value = selectedItem.Cost;
             }
-
-            Debug.WriteLine("\n===========================================================\n");
-            Debug.WriteLine($"\nSelected: {selectedIndex}\n");
-            Debug.WriteLine("\n===========================================================\n");
-
-            //eID.Text = selectedItem;
-
         }
     }
 
