@@ -1,0 +1,15 @@
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\bin\Debug\netstandard2.0\walsh0715cosc295a2.deps.json
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\bin\Debug\netstandard2.0\walsh0715cosc295a2.dll
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\bin\Debug\netstandard2.0\walsh0715cosc295a2.pdb
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\walsh0715cosc295a2.csproj.AssemblyReference.cache
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\walsh0715cosc295a2.GeneratedMSBuildEditorConfig.editorconfig
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\OpponentsPage.xaml.g.cs
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\walsh0715cosc295a2.AssemblyInfoInputs.cache
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\walsh0715cosc295a2.AssemblyInfo.cs
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\walsh0715cosc295a2.csproj.CoreCompileInputs.cache
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\walsh0715cosc295a2.dll
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\refint\walsh0715cosc295a2.dll
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\walsh0715cosc295a2.pdb
+C:\xamarin_git\xamarin\walsh0715cosc295a2\walsh0715cosc295a2\walsh0715cosc295a2\obj\Debug\netstandard2.0\ref\walsh0715cosc295a2.dll

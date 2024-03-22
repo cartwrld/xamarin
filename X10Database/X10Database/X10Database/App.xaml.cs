@@ -34,6 +34,8 @@ namespace X10Database
         static Slider slLitres = new Slider { Maximum = 100, Minimum = 1, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300 };
         static Slider slCost = new Slider { Maximum = 250, Minimum = 0.01, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300};
 
+       
+
         static FuelPurchase currentFP;
         static Label lblDate = new Label { Text = "Date" };
         static Label txtDate = new Label { Text = (datePicker.Date).ToString(), FontSize = 20 };
@@ -74,7 +76,6 @@ namespace X10Database
 
             StackLayout stkLitres = SliderStack(1, slLitres, 100);
             StackLayout stkCost = SliderStack(0.01, slCost, 250);
-            
 
             ViewCell vcLitres  = new ViewCell { View = stkLitres };
             ViewCell vcCost = new ViewCell { View = stkCost };
@@ -94,7 +95,6 @@ namespace X10Database
             ContentPage content = new ContentPage { Content = tblStack };
 
             MainPage = content;
-            
         }
 
         StackLayout SliderStack(double min, Slider s, int max)
@@ -110,7 +110,6 @@ namespace X10Database
 
         StackLayout createButtons()
         {
-            
             btnSearch = new Button { Text = "Find" };
             btnNew = new Button { Text = "New" };
             btnDelete = new Button { Text = "Delete" };
