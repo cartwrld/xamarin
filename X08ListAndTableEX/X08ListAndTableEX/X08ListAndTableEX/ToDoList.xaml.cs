@@ -150,7 +150,7 @@ namespace X08ListAndTableEX
         {
             base.OnBindingContextChanged();
             ToDo item = (ToDo)this.BindingContext; // the binding context of what this cell is holding (a ToDo instance)
-            if (item.Date < DateTime.Now)
+            
             
         }
 

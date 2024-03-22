@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -28,25 +29,23 @@ namespace X10Database
         static Picker picker;
 
         static EntryCell eID = new EntryCell { Label = "ID:" };
-        static DatePicker datePicker = new DatePicker();
+        static DatePicker datePicker = new DatePicker { Format = "dddd, MMMM dd, yyyy" };
         static ViewCell vcDate = new ViewCell { View = datePicker };
         static Slider slLitres = new Slider { Maximum = 100, Minimum = 1, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300 };
-        static Slider slCost = new Slider { Maximum = 250, Minimum = 0.01, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300 };
+        static Slider slCost = new Slider { Maximum = 250, Minimum = 0.01, ThumbColor = Color.DeepSkyBlue, MinimumTrackColor = Color.DeepPink, MaximumTrackColor = Color.Gray, WidthRequest = 300};
 
         static FuelPurchase currentFP;
         static Label lblDate = new Label { Text = "Date" };
-        static Label txtDate = new Label { Text = (datePicker.Date).ToString() };
+        static Label txtDate = new Label { Text = (datePicker.Date).ToString(), FontSize = 20 };
         static Label lblLitres = new Label { Text = "Litres" };
-        static Label txtLitres = new Label { Text = slLitres.Value.ToString() };
+        static Label txtLitres = new Label { Text = slLitres.Value.ToString(), FontSize = 20 };
         static Label lblCost = new Label { Text = "Cost" };
-        static Label txtCost = new Label { Text = slCost.Value.ToString() };
+        static Label txtCost = new Label { Text = slCost.Value.ToString(), FontSize = 20 };
 
         static Button btnSearch;
         static Button btnNew;
         static Button btnDelete;
         static Button btnSave;
-       
-
 
         public App()
         {
@@ -73,20 +72,9 @@ namespace X10Database
             slLitres.ValueChanged += OnLitresSliderChanged;
             slCost.ValueChanged += OnCostSliderChanged;
 
-            StackLayout stkLitres = new StackLayout
-            {
-                Orientation = StackOrientation.Horizontal,
-                HorizontalOptions = LayoutOptions.CenterAndExpand,
-                VerticalOptions = LayoutOptions.CenterAndExpand,
-                Children = { new Label { Text = "1", WidthRequest = 30 }, slLitres, new Label { Text = "100", WidthRequest = 30 } }
-            };
-            StackLayout stkCost = new StackLayout
-            {
-                Orientation = StackOrientation.Horizontal,
-                HorizontalOptions = LayoutOptions.CenterAndExpand,
-                VerticalOptions = LayoutOptions.CenterAndExpand,
-                Children = { new Label { Text = "0.01", WidthRequest = 30 }, slCost, new Label { Text = "250", WidthRequest = 30 } }
-            };
+            StackLayout stkLitres = SliderStack(1, slLitres, 100);
+            StackLayout stkCost = SliderStack(0.01, slCost, 250);
+            
 
             ViewCell vcLitres  = new ViewCell { View = stkLitres };
             ViewCell vcCost = new ViewCell { View = stkCost };
@@ -101,32 +89,22 @@ namespace X10Database
                 Children = { stkDateDisplay, stkLitresDisplay, stkCostDisplay }
             };
 
-            MainPage = new ContentPage
+            TableView tbl = new TableView { Intent = TableIntent.Form, Root = new TableRoot { new TableSection("Fuel Purchase") { eID, vcDate, vcLitres, vcCost} } };
+            StackLayout tblStack = new StackLayout { VerticalOptions = LayoutOptions.Center, Spacing = 5, Padding = 5, Children = { picker, tbl, display, createButtons()} };
+            ContentPage content = new ContentPage { Content = tblStack };
+
+            MainPage = content;
+            
+        }
+
+        StackLayout SliderStack(double min, Slider s, int max)
+        {
+            return new StackLayout
             {
-                Content = new StackLayout
-                {
-                    Spacing = 5, Padding = 5,
-                    Children =
-                    {
-                        picker,
-
-                        new TableView
-                        {
-                            Intent = TableIntent.Form,
-                            Root = new TableRoot
-                            {
-                                new TableSection("Fuel Purchase")
-                                {
-                                    eID, vcDate, vcLitres, vcCost,
-                                }
-                            }
-                        },  
-
-                        display,
-
-                        createButtons(),
-                    }
-                }
+                Orientation = StackOrientation.Horizontal,
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
+                Children = { new Label { Text = min.ToString(), WidthRequest = 30 }, s, new Label { Text = max.ToString(), WidthRequest = 30 } }
             };
         }
 
@@ -148,7 +126,7 @@ namespace X10Database
 
             btnNew.Clicked += (s, e) =>     // prepare for new entry
             {
-                picker.SelectedItem = null;
+                //picker.SelectedItem = null;
                 eID.Text = "0";
                 datePicker.Date = DateTime.Now;
                 slLitres.Value = 0;
@@ -181,6 +159,7 @@ namespace X10Database
 
             return new StackLayout { 
                 Orientation = StackOrientation.Horizontal, 
+                HorizontalOptions = LayoutOptions.CenterAndExpand,
                 Children = 
                 { 
                     btnSearch,
@@ -193,9 +172,16 @@ namespace X10Database
 
         StackLayout HStack(Label l1, Label l2)
         {
+            l1.WidthRequest = 100;
+            l1.Padding = new Thickness(0, 5, 0, 0);
+            l1.FontAttributes = FontAttributes.Bold;
+
             return new StackLayout
             {
                 Orientation = StackOrientation.Horizontal,
+                HorizontalOptions = LayoutOptions.StartAndExpand,
+                VerticalOptions = LayoutOptions.StartAndExpand,
+                
                 Children = { l1, l2 }
             };
         }
@@ -245,5 +231,19 @@ namespace X10Database
     public interface IFileHelper
     {
         string GetLocalFilePath(string filename);
+    }
+
+    public class DateConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            DateTime date = (DateTime)value;
+            return date.ToString("dddd, MMMM dd, yyyy");
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
