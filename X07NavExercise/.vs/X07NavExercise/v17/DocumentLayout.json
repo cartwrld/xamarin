@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\xamarin\\X07NavExercise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D994B2D-40C0-44EF-8D7F-5CAB0A177AFB}|App1\\App1.Android\\App1.Android.csproj|d:\\github\\xamarin\\x07navexercise\\app1\\app1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D994B2D-40C0-44EF-8D7F-5CAB0A177AFB}|App1\\App1.Android\\App1.Android.csproj|solutionrelative:app1\\app1.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\xamarin\\X07NavExercise\\app1\\app1\\displaypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app1\\app1\\displaypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\xamarin\\X07NavExercise\\app1\\app1\\x07navexercise.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app1\\app1\\x07navexercise.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\xamarin\\X07NavExercise\\app1\\app1\\displaypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app1\\app1\\displaypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\xamarin\\X07NavExercise\\app1\\app1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app1\\app1\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\xamarin\\X07NavExercise\\app1\\app1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app1\\app1\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\xamarin\\X07NavExercise\\app1\\app1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app1\\app1\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 275,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "App1\\App1.Android\\MainActivity.cs",
+              "ToolTip": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1.Android\\MainActivity.cs*",
+              "RelativeToolTip": "App1\\App1.Android\\MainActivity.cs*",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAiwA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T02:07:32.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DisplayPage.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\DisplayPage.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\DisplayPage.xaml.cs",
+              "ToolTip": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\DisplayPage.xaml.cs",
+              "RelativeToolTip": "App1\\App1\\DisplayPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T02:07:32.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "X07NavExercise.csproj",
+              "DocumentMoniker": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\X07NavExercise.csproj",
+              "RelativeDocumentMoniker": "App1\\App1\\X07NavExercise.csproj",
+              "ToolTip": "C:\\Xamarin\\X07NavExercise\\App1\\App1\\X07NavExercise.csproj*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-19T02:07:32.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DisplayPage.xaml",
+              "DocumentMoniker": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\DisplayPage.xaml",
+              "RelativeDocumentMoniker": "App1\\App1\\DisplayPage.xaml",
+              "ToolTip": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\DisplayPage.xaml",
+              "RelativeToolTip": "App1\\App1\\DisplayPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T02:07:32.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\App.xaml",
+              "RelativeDocumentMoniker": "App1\\App1\\App.xaml",
+              "ToolTip": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\App.xaml",
+              "RelativeToolTip": "App1\\App1\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T02:07:32.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "App1\\App1\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Xamarin\\X07NavExercise\\App1\\App1\\MainPage.xaml.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T02:07:32.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "App1\\App1\\MainPage.xaml",
+              "ToolTip": "D:\\Github\\xamarin\\X07NavExercise\\App1\\App1\\MainPage.xaml",
+              "RelativeToolTip": "App1\\App1\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T02:07:32.045Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

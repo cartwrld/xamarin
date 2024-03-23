@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EX06NavigationPassing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a88a8c8f53dc0868d68d71b1e9e6155dfaa8a82c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EX06NavigationPassing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EX06NavigationPassing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

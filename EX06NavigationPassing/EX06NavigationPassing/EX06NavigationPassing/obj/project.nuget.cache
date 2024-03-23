@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "1PtIijH2qkIsWgsKFl0Z77W+ECrjBzKt+9a7BRIo//WJF7V7WhMUkoLt7rXNV3/B2Vfq72LMLqKNH4A+aHxIKw==",
+  "dgSpecHash": "RjzDvBlmy7KIO9gpdvM4kIfbjFAhbz/vgf+JmG8NGApMlB/5zPzX05qRcvkcjuqDc6EcJ62B9fqvagnuDUdkAg==",
   "success": true,
-  "projectFilePath": "C:\\Xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj",
+  "projectFilePath": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\walsh0715\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\walsh0715\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\walsh0715\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\walsh0715\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\walsh0715\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\xer0x\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\xer0x\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\xer0x\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\xer0x\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\xer0x\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

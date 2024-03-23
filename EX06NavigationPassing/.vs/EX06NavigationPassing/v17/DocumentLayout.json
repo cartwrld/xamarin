@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\xamarin\\EX06NavigationPassing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|d:\\github\\xamarin\\ex06navigationpassing\\ex06navigationpassing\\ex06navigationpassing\\exr1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|solutionrelative:ex06navigationpassing\\ex06navigationpassing\\exr1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|d:\\github\\xamarin\\ex06navigationpassing\\ex06navigationpassing\\ex06navigationpassing\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|solutionrelative:ex06navigationpassing\\ex06navigationpassing\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|d:\\github\\xamarin\\ex06navigationpassing\\ex06navigationpassing\\ex06navigationpassing\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|solutionrelative:ex06navigationpassing\\ex06navigationpassing\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|d:\\github\\xamarin\\ex06navigationpassing\\ex06navigationpassing\\ex06navigationpassing\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|solutionrelative:ex06navigationpassing\\ex06navigationpassing\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|d:\\github\\xamarin\\ex06navigationpassing\\ex06navigationpassing\\ex06navigationpassing\\exr1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{A6713E4A-3338-419D-9A44-B889C944919E}|EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing.csproj|solutionrelative:ex06navigationpassing\\ex06navigationpassing\\exr1.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 275,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "EX06NavigationPassing\\EX06NavigationPassing\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\MainPage.xaml.cs",
+              "RelativeToolTip": "EX06NavigationPassing\\EX06NavigationPassing\\MainPage.xaml.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwCwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T02:10:12.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\MainPage.xaml",
+              "RelativeDocumentMoniker": "EX06NavigationPassing\\EX06NavigationPassing\\MainPage.xaml",
+              "ToolTip": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\MainPage.xaml",
+              "RelativeToolTip": "EX06NavigationPassing\\EX06NavigationPassing\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T02:10:12.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "exr1.xaml.cs",
+              "DocumentMoniker": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\exr1.xaml.cs",
+              "RelativeDocumentMoniker": "EX06NavigationPassing\\EX06NavigationPassing\\exr1.xaml.cs",
+              "ToolTip": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\exr1.xaml.cs",
+              "RelativeToolTip": "EX06NavigationPassing\\EX06NavigationPassing\\exr1.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAvwBAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T02:10:12.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "exr1.xaml",
+              "DocumentMoniker": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\exr1.xaml",
+              "RelativeDocumentMoniker": "EX06NavigationPassing\\EX06NavigationPassing\\exr1.xaml",
+              "ToolTip": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\exr1.xaml",
+              "RelativeToolTip": "EX06NavigationPassing\\EX06NavigationPassing\\exr1.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T02:10:12.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\Person.cs",
+              "RelativeDocumentMoniker": "EX06NavigationPassing\\EX06NavigationPassing\\Person.cs",
+              "ToolTip": "D:\\Github\\xamarin\\EX06NavigationPassing\\EX06NavigationPassing\\EX06NavigationPassing\\Person.cs",
+              "RelativeToolTip": "EX06NavigationPassing\\EX06NavigationPassing\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T02:10:12.188Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
